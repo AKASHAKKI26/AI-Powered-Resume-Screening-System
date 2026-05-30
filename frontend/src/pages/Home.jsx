@@ -41,7 +41,7 @@ function Home() {
 
       const response = await axios.post(
 
-        `http://127.0.0.1:8000/upload-resume/?job_description=${jobDescription}`,
+        `https://ai-powered-resume-screening-system-rpak.onrender.com/upload-resume/?job_description=${jobDescription}`,
 
         formData
 
